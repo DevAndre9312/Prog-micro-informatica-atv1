@@ -119,7 +119,7 @@ li {
 }
 /* Contato */
 
-div label,
+.containerform label,
 input, option {
   color: #eb1f1f;
   margin: 10px;
@@ -130,8 +130,11 @@ input, option {
 /* responsividade */
 @media screen and (max-width: 740px){
 .banner {
-  display: flex;
+  /* display: flex; */
   height: 150px;
   width: 325px;
+  }
+  .logo {
+    display: none;
   }
 }
